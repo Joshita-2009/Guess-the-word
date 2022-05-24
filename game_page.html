@@ -1,0 +1,25 @@
+<html>
+          <head>
+                    <title>game page </title>
+                    <link rel="stylesheet" href="game.css">
+          </head>
+          <body>
+                    <h4 id="player1_name"></h4> <span id="player1_score"></span><br>
+                    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+                    <div>
+                              <center>
+                                        <h2 style="color: white;">GUESS the WORD</h2>
+                                        <h3 id="question_turn"></h3>
+                                        <h3 id="answer_turn"></h3>
+                                        <div id="output"></div>
+                                        <br><br>
+                                        <label>Send your word: <b style="color: red;">Try putting word which has 5 or more alpahabets</b></label>
+                                        <br><br>
+                                        <input type="text" id="word" placeholder="give your word">
+                                        <br><br>
+                                        <button type="button" id="send_button" onclick="send()"> Send</button>
+                              </center>
+                    </div>
+                    <script src="game_page.js"></script>
+          </body>
+</html>
